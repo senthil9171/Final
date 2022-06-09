@@ -38,3 +38,7 @@ steps:
     includeRootFolder: false
  
 - task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(System.DefaultWorkingDirectory)'
+    ArtifactName: 'nodejs'
+    publishLocation: 'Container'
