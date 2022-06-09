@@ -11,7 +11,7 @@ const a = 10
 
 app.get("/about", (req, res)=>{
 
-    res.send({ about : "this is about senthil"})
+    res.send({ about : "this is about senthil Rajan"})
 
 
 })
