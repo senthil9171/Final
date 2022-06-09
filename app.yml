@@ -12,7 +12,7 @@ spec:
       labels:
         app: my-app
     spec:
-      containers:
+    containers:
       - name: my-image
         image: acrwebfirst.azurecr.io/iamsenthil/mynode
         ports:
